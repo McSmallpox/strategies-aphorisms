@@ -14,7 +14,7 @@ public class Source {
   private long id;
 
   @NonNull
-  @ColumnInfo(collate = ColumnInfo.NOCASE)
+  @ColumnInfo(collate = ColumnInfo.NOCASE) //the text inside parenthesis means the info will be sorted regardless of case.
   private String name = "";
 
   public long getId() {
